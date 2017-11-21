@@ -20,9 +20,11 @@ const Header = () => (
             </ul>
           </Box>
           <Box ml='auto' px={2}>
+            {/*
             <Link href='https://github.com/KentaRohw/spa_seo' color='#333'>
               <Image width={30} height={30} src={logoGithub}/>
             </Link>
+            */}
           </Box>
         </Flex>
       </Toolbar>

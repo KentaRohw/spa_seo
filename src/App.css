@@ -47,6 +47,10 @@ p {
   line-height: 1.6;
 }
 
+.article img {
+  max-width: 100%;
+}
+
 .toolBar li {
   list-style: none;
   display: inline-block;
