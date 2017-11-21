@@ -1,35 +1,35 @@
 const ENTRYS = [
   {
     id: '8392473984',
-    title: '記事タイトル1',
+    title: 'トーマスランド',
     date: '2017-11-20',
     author: 'kentatan',
     body: '記事の内容です。記事の内容です。記事の内容です。記事の内容です。記事の内容です。記事の内容です。記事の内容です。記事の内容です。記事の内容です。記事の内容です。',
-    image_url: 'https://placehold.jp/800x800.png'
+    image_url: 'https://scontent-nrt1-1.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/21576677_115589622455053_7978756652675366912_n.jpg'
   },
   {
     id: '2381273217',
-    title: '記事タイトル2記事タイトル2',
+    title: 'サングラス',
     date: '2017-11-21',
     author: 'jyasukaw',
     body: '記事の内容です。記事の内容です。記事の内容です。記事の内容です。記事の内容です。記事の内容です。記事の内容です。記事の内容です。記事の内容です。記事の内容です。',
-    image_url: 'https://placehold.jp/800x800.png'
+    image_url: 'https://scontent-nrt1-1.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/20766438_100330230693746_3443546327999315968_n.jpg'
   },
   {
     id: '49873434374',
-    title: '記事タイトル3記事タイトル3記事タイトル3',
+    title: 'アイスクリーム',
     date: '2017-11-22',
     author: 'kentatan',
     body: '記事の内容です。記事の内容です。記事の内容です。記事の内容です。記事の内容です。記事の内容です。記事の内容です。記事の内容です。記事の内容です。記事の内容です。',
-    image_url: 'https://placehold.jp/800x800.png'
+    image_url: 'https://scontent-nrt1-1.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/18645670_347825388965586_4716293558988963840_n.jpg'
   },
   {
     id: '98848234923',
-    title: '記事タイトル4記事タイトル4記事タイトル4記事タイトル4',
+    title: '楽しい遠足でした',
     date: '2017-11-23',
     author: 'jyasukaw',
     body: '記事の内容です。記事の内容です。記事の内容です。記事の内容です。記事の内容です。記事の内容です。記事の内容です。記事の内容です。記事の内容です。記事の内容です。',
-    image_url: 'https://placehold.jp/800x800.png'
+    image_url: 'https://scontent-nrt1-1.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/18580060_292902204502690_7934112735376179200_n.jpg'
   }
 ]
 

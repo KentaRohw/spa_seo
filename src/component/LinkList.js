@@ -17,7 +17,7 @@ const LinkList = () => (
           <Link href={`/entry/${entry.author}/${entry.id}`}>
             <Media>
               <Image mr={2} width={64} height={64} src={entry.image_url} />
-              <Subhead f={[2]}>{entry.title}</Subhead>
+              <Subhead f={[1]}>{entry.title}</Subhead>
             </Media>
           </Link>
         </li>
