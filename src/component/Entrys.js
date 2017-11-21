@@ -31,7 +31,7 @@ const Entrys = props => {
     <div>
       <Flex wrap mx='auto' mb={[5]} w={[1, null, null, 1024]}>
         <Box w={[1, null, 2/3, 2/3]} px={2} mb={4}>
-          <article>
+          <article className='article'>
             <Border mb={2} pb={2} bottom>
               <Heading is='h1'>{entry.title}</Heading>
             </Border>
