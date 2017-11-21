@@ -1,5 +1,6 @@
 import React from 'react';
 import { Route } from 'react-router-dom';
+import ReactMarkdown from 'react-markdown';
 import { 
   Flex,
   Box,
@@ -12,6 +13,7 @@ import LinkList from './LinkList';
 import ENTRYS from '../data/Entrys';
   
 const entryById = id => ENTRYS.find(entry => entry.id === id);
+const input = '# This is a header\n\nAnd this is a paragraph';
 
 const Entrys = props => {
   const { id } = props.match.params
@@ -34,9 +36,7 @@ const Entrys = props => {
               <Heading is='h1'>{entry.title}</Heading>
             </Border>
             <Text mb={[10]} color='#ccc' f={[1]}>{entry.date}</Text>
-            <Text>
-              {entry.body}
-            </Text>
+            <ReactMarkdown source={entry.body} />
           </article>
         </Box>
         <Box w={[1, null, 1/3, 1/3]} px={3} flex='none'>
