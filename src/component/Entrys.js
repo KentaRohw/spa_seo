@@ -13,7 +13,6 @@ import LinkList from './LinkList';
 import ENTRYS from '../data/Entrys';
   
 const entryById = id => ENTRYS.find(entry => entry.id === id);
-const input = '# This is a header\n\nAnd this is a paragraph';
 
 const Entrys = props => {
   const { id } = props.match.params
