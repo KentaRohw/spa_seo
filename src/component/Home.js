@@ -4,7 +4,8 @@ import {
   Flex,
   Box,
   Heading,
-  Border } from 'rebass';
+  Border
+} from 'rebass';
 
 import CardList from './CardList';
   

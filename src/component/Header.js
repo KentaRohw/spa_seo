@@ -5,7 +5,8 @@ import {
   Box,
   Toolbar,
   Link,
-  Image } from 'rebass';
+  Image
+} from 'rebass';
 
 import logoGithub from '../image/logo_github.png';
   

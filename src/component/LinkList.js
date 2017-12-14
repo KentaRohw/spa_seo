@@ -4,7 +4,8 @@ import {
   Link,
   Subhead,
   Media,
-  Image } from 'rebass';
+  Image
+} from 'rebass';
 
 import ENTRYS from '../data/Entrys';
 

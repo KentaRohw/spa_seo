@@ -4,8 +4,9 @@ import {
   Flex,
   Box,
   Toolbar,
-  Link } from 'rebass';
-  
+  Link
+} from 'rebass';
+
 const Footer = () => (
   <div>
     <footer>

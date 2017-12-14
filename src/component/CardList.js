@@ -8,7 +8,8 @@ import {
   Subhead,
   Relative,
   Absolute,
-  Small } from 'rebass';
+  Small
+} from 'rebass';
 
 import ENTRYS from '../data/Entrys';
 
