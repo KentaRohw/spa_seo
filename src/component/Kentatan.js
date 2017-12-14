@@ -2,7 +2,8 @@ import React from 'react';
 import {
   Avatar,
   Text,
-  Box } from 'rebass';
+  Box
+} from 'rebass';
 
 import AvatarKentatan from '../image/avatar_kentatan.png';
   

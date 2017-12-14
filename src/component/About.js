@@ -5,8 +5,9 @@ import {
   Box,
   Heading,
   Text,
-  Border } from 'rebass';
-  
+  Border
+} from 'rebass';
+
 const About = () => (
   <div>
     <Helmet

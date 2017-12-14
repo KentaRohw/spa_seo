@@ -6,7 +6,8 @@ import {
   Box,
   Heading,
   Text,
-  Border } from 'rebass';
+  Border
+} from 'rebass';
 
 import Author from './Author';
 import LinkList from './LinkList';
