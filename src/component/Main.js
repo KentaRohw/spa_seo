@@ -10,6 +10,7 @@ const Main = () => (
     <Route exact path='/' component={Home} />
     <Route exact path='/entry/kentatan/:id' component={Entrys} />
     <Route exact path='/entry/jyasukaw/:id' component={Entrys} />
+    <Route exact path='/entry/iyamasat/:id' component={Entrys} />
     <Route exact path='/about' component={About} />
   </div>
 )

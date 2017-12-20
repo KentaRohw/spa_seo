@@ -32,11 +32,9 @@ const Entrys = props => {
       <Flex wrap mx='auto' mb={[5]} w={[1, null, null, 1024]}>
         <Box w={[1, null, 2/3, 2/3]} px={2} mb={4}>
           <article className='article'>
-            <Border mb={2} pb={2} bottom>
-              <Heading is='h1'>{entry.title}</Heading>
-            </Border>
-            <Text mb={[10]} color='#ccc' f={[1]}>{entry.date}</Text>
-            <ReactMarkdown source={entry.body} />
+            <Heading is='h1' mb={2}>{entry.title}</Heading>
+            <Text mb={[20]} color='#999' f={[1]}>{entry.date}に更新</Text>
+            <ReactMarkdown className='article_body' source={entry.body} escapeHtml={false} />
           </article>
         </Box>
         <Box w={[1, null, 1/3, 1/3]} px={3} flex='none'>

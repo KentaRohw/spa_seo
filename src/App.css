@@ -4,67 +4,123 @@ License: none (public domain)
 */
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
-
 
 /*  HTML5 display-role reset for older browsers 
 */
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-  display: block;
+    display: block;
 }
 
 body {
-  line-height: 1;
-  background-color: #fafafa;
+    line-height: 1;
+    background-color: #fafafa;
 }
 
 ol, ul {
-  list-style: none;
+    list-style: none;
 }
 
 blockquote, q {
-  quotes: none;
+    quotes: none;
 }
 
 blockquote:before, blockquote:after, q:before, q:after {
-  content: '';
-  content: none;
+    content: '';
+    content: none;
 }
 
 table {
-  border-collapse: collapse;
-  border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 p {
-  line-height: 1.6;
+    line-height: 1.6;
 }
 
-.article img {
-  max-width: 100%;
+html {
+    font-size: 16px;
 }
 
 .toolBar li {
-  list-style: none;
-  display: inline-block;
+    list-style: none;
+    display: inline-block;
 }
 
 .toolBar li a {
-  color: #fff;
-  font-size: 18px;
-  font-weight: bold;
-  text-decoration: none;
-  padding: 5px 10px;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5px 10px;
 }
 
+/* サイドリンク用style */
+
 .sideLink li {
-  line-height: 1.4;
-  margin-bottom: .5em;
+    line-height: 1.4;
+    margin-bottom: .5em;
+}
+
+/* 記事用style */
+
+.article_body {
+    color: #333;
+}
+
+.article_body h1, .article_body h2, .article_body h3, .article_body h4 {
+    line-height: 1.4;
+}
+
+.article_body h1 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    border-bottom: 1px solid #ddd;
+    margin: 2em 0 .7em;
+}
+
+.article_body h2 {
+    font-size: 1.4rem;
+}
+
+.article_body p {
+    line-height: 1.6;
+    font-size: 1rem;
+}
+
+.article_body ul,
+.article_body dl {
+    padding: 0.5em 0.5em 0.5em 2em;
+}
+
+.article_body ul li,
+.article_body dl li {
+    line-height: 1.5;
+    padding: 0.5em 0;
+    list-style: disc;
+}
+
+.article_body img {
+    max-width: 100%;
+}
+
+.article_body hr {
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #ddd;
+    border: 0;
+}
+
+.article_body strong {
+    font-weight: bold;
+    font-size: 1.1rem;
 }
