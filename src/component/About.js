@@ -12,6 +12,9 @@ const About = () => (
   <div>
     <Helmet
       title="About"
+      meta={[
+        { name: 'description', content: 'About' },
+      ]}
     />
     <Flex wrap mx='auto' mb={[5]} w={[1, null, null, 1024]}>
       <Box w={[1, null, null, 1024]} px={2} mb={4}>

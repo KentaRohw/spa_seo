@@ -14,17 +14,8 @@ class App extends Component {
         <BrowserRouter>
           <div>
             <Helmet
-              title="Home"
-              meta={[
-                { name: 'twitter:card', content: 'summary' },
-                { name: 'twitter:title', content: 'Home' },
-                { name: 'twitter:description', content: 'description of Home' },
-                { name: 'twitter:image', content: 'http://path/to/image' },
-                { property: 'og:title', content: 'Home' },
-                { property: 'og:type', content: 'website' },
-                { property: 'og:url', content: 'http://path/to/this/url' },
-                { property: 'og:image', content: 'http://path/to/image' },
-                { property: 'og:description', content: 'description of Home' },
+              link={[
+                { rel: 'canonical', href: window.location.href },
               ]}
             />
             <Header />
