@@ -1,5 +1,6 @@
 import React from 'react';
 import { Route } from 'react-router-dom';
+import Helmet from 'react-helmet';
 import ReactMarkdown from 'react-markdown';
 import { 
   Flex,
@@ -29,6 +30,12 @@ const Entrys = props => {
 
   return (
     <div>
+      <Helmet
+        title={entry.title}
+        meta={[
+          { name: 'description', content: entry.description },
+        ]}
+      />
       <Flex wrap mx='auto' mb={[5]} w={[1, null, null, 1024]}>
         <Box w={[1, null, 2/3, 2/3]} px={2} mb={4}>
           <article className='article'>
