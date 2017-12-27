@@ -89,6 +89,8 @@ html {
 
 .article_body h2 {
     font-size: 1.4rem;
+    font-weight: bold;
+    margin: 2em 0 .7rem;
 }
 
 .article_body p {
@@ -97,15 +99,25 @@ html {
 }
 
 .article_body ul,
+.article_body ol,
 .article_body dl {
     padding: 0.5em 0.5em 0.5em 2em;
 }
 
 .article_body ul li,
+.article_body ol li,
 .article_body dl li {
     line-height: 1.5;
     padding: 0.5em 0;
+}
+
+.article_body ul li,
+.article_body dl li {
     list-style: disc;
+}
+
+.article_body ol li {
+    list-style: decimal;
 }
 
 .article_body img {
