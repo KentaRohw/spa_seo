@@ -1,38 +1,14 @@
 const ENTRYS = [
   {
-    id: '8392473984',
-    title: 'トーマスランド',
-    date: '2017-11-20',
-    author: 'kentatan',
-    body: '* If you escape or skip the HTML, no `dangerouslySetInnerHTML` is used! Yay!',
-    image_url: 'https://scontent-nrt1-1.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/21576677_115589622455053_7978756652675366912_n.jpg'
-  },
-  {
-    id: '2381273217',
-    title: 'サングラス',
-    date: '2017-11-21',
+    id: '14838',
+    title: 'MFI（モバイルファーストインデックス）へ向けてのまとめ',
+    date: '2017-12-25',
     author: 'jyasukaw',
-    body: '<http://google.com>',
-    image_url: 'https://scontent-nrt1-1.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/20766438_100330230693746_3443546327999315968_n.jpg'
+    body: '## MFIとは\n\nGoogleは、2016年11月にGoole検索の大きな仕様変更となる、[MFIを発表](https://webmaster-ja.googleblog.com/2016/11/mobile-first-indexing.html)しました。\n\n簡単に言うと、Google検索を使用しているユーザーの多くがモバイル端末からとなってきている現状を受けて、検索の評価システムをデスクトップ版から、モバイル版に移行するというものです。\n\nMFIの導入に向けて、サイト運営者として気をつけておきたい事をメモしておきたいと思います。\n\n## MFIに向けての対策について\n\n結論から言うと、以下のようになります。\n\n 1. レスポンシブで実装しているサイトは、影響は少ない\n\n2. デスクトップとモバイルサイトでページ（コンテンツ）を分けている場合は要注意\n\nGoogle検索の評価システムが、モバイル版に移行するという事は、言い換えるとデスクトップ版を評価しなくなるという事です。<br>デスクトップ版とモバイル版が同一ソースになっているレスポンシブで構築されているサイトに関しては、どちらを評価されても特に問題はありません。<br>2.のように、例えばデスクトップ版にのみ主要な情報を載せている等、モバイル版と差異がある場合は、デスクトップ版にしかない重要な情報がインデックスされず大きく順位を落とす可能性があるため、なるべく早いタイミングでモバイルファーストなサイト設計に見直す必要があると考えられます。\n\n ## 見直すポイント\n\n先日、[モバイル ファースト インデックスに向けてサイトを準備するためのヒント](https://webmaster-ja.googleblog.com/2017/12/getting-your-site-ready-for-mobile.html)として、いくつかのヒントが紹介されました。<br>ここでは、以下のような情報がピックアップされています。\n\n - コンテンツの品質\n\n - 画像のALT、構造化データ（適切なタグによる文章構造の最適化）、タイトル・メタディスクリプションなど、インデックスしやすくなるベーシックな情報\n\n - モバイル版とデスクトップ版を紐付ける「rel=canonical要素」と「rel=alternate要素」\n\n- 国際化対応のための「link rel=hreflang要素」\n\n## 今後について\n\nMFIの正式な導入日程はまだ発表されていませんが、少数のサイトを対象に試験導入を開始していますし、2018年中には開始されるのではと噂されています。<br>また、GoogleはAMP（Accelerated Mobile Pages）と言われるモバイル体験の高速化にも積極的に取り組んでいます。\n\nモバイル対応が十分でない場合はもちろんのこと、新たにサイトを設計する際にもモバイルファーストを意識して取り組みたいところです。',
+    image_url: 'https://mym.corp.yahoo.co.jp/paster/rK8Fp5a42ec3d413a33c8173c00ac.png'
   },
   {
-    id: '49873434374',
-    title: 'アイスクリーム',
-    date: '2017-11-22',
-    author: 'kentatan',
-    body: '![テスト](https://scontent-nrt1-1.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/18645670_347825388965586_4716293558988963840_n.jpg)',
-    image_url: 'https://scontent-nrt1-1.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/18645670_347825388965586_4716293558988963840_n.jpg'
-  },
-  {
-    id: '98848234923',
-    title: '楽しい遠足でした',
-    date: '2017-11-23',
-    author: 'jyasukaw',
-    body: '改行\n\n ### h3',
-    image_url: 'https://scontent-nrt1-1.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/18580060_292902204502690_7934112735376179200_n.jpg'
-  },
-  {
-    id: '98848234924',
+    id: '66735',
     title: 'SPAにおけるgoogleクローラ対策',
     date: '2017-12-19',
     author: 'iyamasat',
