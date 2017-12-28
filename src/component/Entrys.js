@@ -12,6 +12,7 @@ import {
 
 import Author from './Author';
 import LinkList from './LinkList';
+import NotFound from './NotFound';
 import ENTRYS from '../data/Entrys';
   
 const entryById = id => ENTRYS.find(entry => entry.id === id);
@@ -22,9 +23,7 @@ const Entrys = props => {
 
   if (typeof entry === 'undefined')  {
     return (
-      <div>
-        <p>こちらの記事id '{id}' は存在しません</p>
-      </div>
+      <NotFound />
     )
   }
 
