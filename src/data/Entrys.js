@@ -1,5 +1,14 @@
 const ENTRYS = [
   {
+    id: '12145',
+    title: 'SEO for SPA',
+    description: 'GoogleやBingのクローラーがどこまでJavaScriptを認識するのかをReactを使って検証してみます。加えて本サイトの構築手順や、MFIについて調べた事も簡単にお話しします。',
+    date: '2017-12-10',
+    author: 'kentatan',
+    body: '## GooglebotとJavaScript\n\nGoogleの[技術に関するガイドライン](https://webmasters.googleblog.com/2014/10/updating-our-technical-webmaster.html)によると、ページ内で使用されているCSSやJavaScript、画像までもがGooglebot（クローラー）でアクセスすることを発表しました。\n\nその流れも影響しているのか、SPA（JavaScript）を利用してサービスを構築するケースは年々増えており、特に「AbemaTV」や「インスタグラム」は代表的なサービスとして身近に感じるかもしれません。\n\n## SPAで構築されたウェブサービス\n\n- https://abema.tv/\n\n- https://www.airbnb.jp/\n\n- https://www.dropbox.com/\n\n- https://www.paypal.com/jp/home\n\n- https://www.udemy.com/\n\n- https://www.instagram.com/\n\n- https://greative.jp/\n\n- https://campus.doda.jp/\n\n- https://s8a.jp/\n\n※ ReactやAngular、Vueあたりを採用されているようです\n\n## このサイト自体をSPAで作ってみました\n\nGooglebotはJavaScriptを解釈してくれる…\n\nとはいっても、SPAで構築する際には注意すべきポイントは必ずあるはずです。\n\nまた、Google以外の検索エンジンからも実際どう評価されるのかを検証するためにも本サイトをSSRなしでSPAにしてみました。\n\nちなみにこのサイトは自分のお勉強がてらReactで構築していますので、導入の際のTipsなんかもブログに残せていければと思います。\n\n## JSでレンダリングしたWebページはどこまでクロールされるのか\n\nブログの準備が整ったところで、Google Search ConsoleやBing Webマスターツールから実際のインデックス結果やSERP表示にどう影響するのかを検証してみたいと思います。結果についてはブログを通じてご紹介したいと思います！',
+    image_url: 'https://raw.githubusercontent.com/KentaRohw/img/master/seo_js.png'
+  },
+  {
     id: '14838',
     title: 'MFI（モバイルファーストインデックス）へ向けてのまとめ',
     description: 'Googleは、2016年11月にGoole検索の大きな仕様変更となる、MFIを発表しました。簡単に言うと、Google検索を使用しているユーザーの多くがモバイル端末からとなってきている現状を受けて、検索の評価システムをデスクトップ版から、モバイル版に移行するというものです。MFIの導入に向けて、サイト運営者として気をつけておきたい事をメモしておきたいと思います。',
