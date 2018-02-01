@@ -16,8 +16,9 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && npm run build:clean",
+    "build": "react-scripts build && npm run build:clean && npm run build:replace",
     "build:clean": "cd build && mv static/js/*.js static/js/main.js && mv static/css/*.css static/css/main.css && mv static/js/*.map static/js/main.js.map && mv static/css/*.map static/css/main.css.map",
+    "build:replace": "cd build && sed -i -e 's/main.*.js/main.js/g' index.html",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   }
