@@ -1,3 +1,4 @@
+import 'babel-polyfill';
 import React, { Component } from 'react';
 import Helmet from 'react-helmet';
 import { Provider } from 'rebass';
