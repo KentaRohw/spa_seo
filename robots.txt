@@ -6,4 +6,4 @@ Disallow: /*.png$
 User-agent: *
 Disallow:
  
-Sitemap:https://seo-kensho.herokuapp.com/sitemap.xml
+Sitemap:https://kentarohw.github.io/spa_seo/sitemap.xml
