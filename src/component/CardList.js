@@ -19,7 +19,7 @@ const CardList = () => (
       {ENTRYS.map(entry => (
         <Box key={entry.id} px={2} py={2} w={[1, 1/2, 250]}>
           <Card>
-            <BlockLink href={`/entry/${entry.author}/${entry.id}`}>
+            <BlockLink href={`#/entry/${entry.author}/${entry.id}`}>
               <BackgroundImage ratio={1} mb={[1]} src={entry.image_url}/>
               <Subhead p={2} mb={2} f={[1]} color='#333'>{entry.title}</Subhead>
               <Box p={2}>

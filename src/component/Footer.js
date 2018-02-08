@@ -16,7 +16,7 @@ const Footer = () => (
             <Box>
               <ul>
                 <li>
-                  <Link href='/about' f={[1]} mx={[10]} children='ABOUT'/>
+                  <Link href='#/about' f={[1]} mx={[10]} children='ABOUT'/>
                 </li>
               </ul>
             </Box>
