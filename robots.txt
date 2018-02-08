@@ -1,0 +1,9 @@
+User-agent: Googlebot-Image
+Disallow: /*.jpg$
+Disallow: /*.gif$
+Disallow: /*.png$
+ 
+User-agent: *
+Disallow:
+ 
+Sitemap:https://seo-kensho.herokuapp.com/sitemap.xml
