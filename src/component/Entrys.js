@@ -19,8 +19,32 @@ import ENTRYS from '../data/Entrys';
 const entryById = id => ENTRYS.find(entry => entry.id === id);
 
 const Entrys = props => {
-  const { id } = props.match.params
-  const entry = entryById(id)
+  const { id } = props.match.params;
+  const pathname = (props.location.pathname);
+  const url = "https://seo-kensho.herokuapp.com" + pathname;
+  const entry = entryById(id);
+  const schema = {
+    type: 'application/ld+json',
+    innerHTML: JSON.stringify({
+      "@context": "http://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "https://seo-kensho.herokuapp.com",
+          "name": "SPAでSEO検証！JSでレンダリングしたWebページはどこまでクロールされるのか"
+        }
+      },{
+        "@type": "ListItem",
+        "position": 2,
+        "item": {
+          "@id": url,
+          "name": entry.title
+        }
+      }]
+    }),
+  };
 
   if (typeof entry === 'undefined')  {
     return (
@@ -35,6 +59,7 @@ const Entrys = props => {
         meta={[
           { name: 'description', content: entry.description },
         ]}
+        script={[schema]}
       />
       <Flex wrap mx='auto' mb={[5]} w={[1, null, null, 1024]}>
         <Box w={[1, null, 2/3, 2/3]} px={2} mb={4}>
